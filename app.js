@@ -121,8 +121,18 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 // Complete Exercise 11 below...
 
+// var odds = []
 
+// nums.forEach(searchOdds)
 
+// function searchOdds()
+
+// above code is as far as I got on my own before I looked at the help code.
+
+const odds =[]
+nums.forEach(function(num) {
+    if (num % 2) odds.push(num)
+})
 console.log('Exercise 11 Result:\n', odds);
 
 /*
