@@ -84,7 +84,7 @@ Exercise 8:
 
 // Complete Exercise 8 below...
 
-
+var soyIdx = yummy.indexOf(1)
 
 console.log('Exercise 8 Result:\n', soyIdx);
 
