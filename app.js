@@ -73,7 +73,7 @@ Exercise 7:
 // Complete Exercise 7 below...
 
 var yummy = foods.slice(1);
-var yummy = foods.slice(2);
+var yummy = foods.slice(3);
 
 console.log('Exercise 7 Result:\n', yummy);
 
@@ -84,7 +84,7 @@ Exercise 8:
 
 // Complete Exercise 8 below...
 
-var soyIdx = yummy.indexOf(1)
+var soyIdx = yummy.indexOf('tofu')
 
 console.log('Exercise 8 Result:\n', soyIdx);
 
@@ -96,7 +96,7 @@ Exercise 9:
 
 // Complete Exercise 9 below...
 
-
+var allFoods = foods.concat('yummy')
 
 console.log('Exercise 9 Result:\n', allFoods);
 
