@@ -145,12 +145,17 @@ Exercise 12:
 
 // Complete Exercise 12 below...
 
+// const fuzz = [], buzz = [], fizzbuzz = []
+// nums.forEach(function(num) {
+//     if (num % 3 ===0) fizz.push(num)
+//     if (num % 5 === 0) buzz.push(num)
+//     if (num % 15 === 0) fizzbuzz.push(num)
+// })
 
-
-console.log('Exercise 12 Results:');
-console.log('  fizz:', fizz);
-console.log('  buzz:', buzz);
-console.log('  fizzbuzz:', fizzbuzz);
+// console.log('Exercise 12 Results:');
+// console.log('  fizz:', fizz);
+// console.log('  buzz:', buzz);
+// console.log('  fizzbuzz:', fizzbuzz);
 
 /*
 Exercise 13:
@@ -167,6 +172,7 @@ const numArrays = [
 
 // Complete Exercise 13 below...
 
+// var numList = numArray.slice()
 //numArrays[0]
 const numList = numArrays[numArrays.length - 1]
 
@@ -180,6 +186,7 @@ Exercise 14:
 
 // Complete Exercise 14 below...
 
+var num = numArrays[2]
 
 
 console.log('Exercise 14 Result:\n', num);
@@ -192,6 +199,11 @@ Exercise 15:
 
 // Complete Exercise 15 below...
 
-
+let total = 0
+numArrays.forEach(function(numArr) {
+    numArr.forEach(function(num) {
+        total += num;
+    });
+});
 
 console.log('Exercise 15 Result:\n', total);
